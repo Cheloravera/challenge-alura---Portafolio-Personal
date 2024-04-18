@@ -1,0 +1,27 @@
+.sobre-mi {
+    background: #3a7bd5; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #3a6073, #3a7bd5); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to top,
+      #141414,
+      #417ccd
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 4rem;
+    text-align: center;
+  }
+  
+  
+  .sobre-mi__title {
+    font-weight: 700;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    color: var(--color-banner-title);
+    margin-bottom: 2rem;
+  }
+  
+  .sobre-mi__text {
+    font-weight: 400;
+    text-align: justify;
+    color: var(--color-text);
+    line-height: 1.525rem;
+  }
